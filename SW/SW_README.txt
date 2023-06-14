@@ -7,4 +7,5 @@ moistureApp/moistureApp.ino
 moistureAndWateringApp/moistureAndWteringApp.ino
 
 -proširena konzolna aplikacija logikom za zalivanje biljke
+-za njenu izradu su kombinovani moistureApp.ino i kod iz FW/wateringAlgo/wateringAlgo.ino
 -finalno rješenje za projekat Self sustaning plant
