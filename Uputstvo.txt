@@ -1,0 +1,12 @@
+- Prvo je potrebno povezati senzore i aktuator sa Arduino Uno, a Arduino Uno sa računarom.
+- Zatim na Arduino spuštamo kod iz soilAndWateringApp.ino (iz SW/soilAndWateringApp)
+- Kada smo to odradili potrebno je pokrenuti konzolnu aplikaciju iz Linux terminala. To radimo pomoću komande:
+    
+	sudo screen /dev/ttyUSB0
+
+ /dev/ttyUSB0 je serijski priključak koji koristi naš Arduino.
+- Ako prethodna komanda ne radi uraditi prvo komandu:
+
+	sudo apt-get intsall screen
+
+- Ako je sve uspješno to znači da je konzolna aplikacija pokrenuta, na terminalu će se prvo prikazati pitanje da li želite informacije o biljci i ako je odgovor Y ili y one će se ispisati.	
