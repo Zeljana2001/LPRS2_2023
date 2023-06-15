@@ -3,6 +3,8 @@ soilMoisture/soilMoisture.ino
 -kod za senzor vlažnosti
 -koristeći taj kod smo provjeravali da li i kako radi senzor vlažnosti
 -pomoću bluetooth senzora smo slali informacije o vlažnosti na Bluetooth Terminal koji smo instalirali na svom telefonu
+-kada se na Android telefonu instalira aplikacija Bluetooth Terminal, bluetooth module HC-05 koji je povezan na arduino pločicu se poveže sa telefonom
+-kada se utvrdi da je konekcija uspešna u aplikaciji se ispisuje ono što treba, što je napisano u kodu koji je spušten na pločicu
 
 wateringAlgo/wateringAlgo.ino
 
