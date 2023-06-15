@@ -1,5 +1,5 @@
 - Prvo je potrebno povezati senzore i aktuator sa Arduino Uno, a Arduino Uno sa računarom.
-- Zatim na Arduino spuštamo kod iz soilAndWateringApp.ino (iz SW/soilAndWateringApp)
+- Zatim na Arduino spuštamo kod iz soilAndWateringApp.ino (iz FW/soilAndWateringApp)
 - Kada smo to odradili potrebno je pokrenuti konzolnu aplikaciju iz Linux terminala. To radimo pomoću komande:
     
 	sudo screen /dev/ttyUSB0
